@@ -12,13 +12,13 @@ webbrowser.open('http://mxweb.fm.fiu.edu/maximo/webclient/login/login.jsp?welcom
 time.sleep(5)
 
 # Write the username (6350019)
-pyautogui.write('6350019', interval=0.1)
+pyautogui.write('***', interval=0.1)
 
 # Press Tab to move to the password field
 pyautogui.press('tab')
 
 # Write the password (R3mangalatuerka!)
-pyautogui.write('R3mangalatuerka!', interval=0.1)
+pyautogui.write('***', interval=0.1)
 
 # Press Enter to submit the login form
 pyautogui.press('enter')
